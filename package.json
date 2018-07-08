@@ -1,0 +1,21 @@
+{
+  "name": "nodesampleproject",
+  "version": "1.0.0",
+  "description": "A simple project to use restify and typeorm",
+  "dependencies": {
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.5",
+    "pg": "^7.4.3",
+    "restify": "^7.2.1",
+    "rimraf": "^2.6.2",
+    "ts-node": "^7.0.0",
+    "typeorm": "^0.2.7",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "author": "Shakeel Osmani",
+  "license": "MIT"
+}
